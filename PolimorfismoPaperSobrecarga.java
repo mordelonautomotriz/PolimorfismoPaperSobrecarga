@@ -54,15 +54,7 @@ public class PolimorfismoPaperSobrecarga {
         Resultado2 = objeto2.determinarConvergencia(0.0, 4.5, 2.9);
         System.out.println("Angulo Convergente: " + Resultado2);
         
-        int Resultado3;
-        objeto3.DeducirDivergencia(2, 3);
-        Resultado3 = objeto3.DeducirDivergencia(2, 3);
-        System.out.println("Angulo Divergente: " + Resultado3);
         
-        double Resultado4;
-        objeto4.deducirDivergencia(2.5, 3.8);
-        Resultado4 = objeto4.deducirDivergencia(2.5, 3.8);
-        System.out.println("Angulo Divergente: " + Resultado4);
     }
     
 }
